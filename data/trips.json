@@ -1,5 +1,6 @@
 [
     {
+        "code": "GR001",
         "name": "Gale Reef",
         "length": "4 nights / 5 days",
         "start": "2021-12-01T08:00:00Z",
@@ -9,6 +10,7 @@
         "description": "Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida."
     },
     {
+        "code": "DR001",
         "name": "Dawson's Reef",
         "length": "4 nights / 5 days",
         "start": "2021-12-01T08:00:00Z",
@@ -18,6 +20,7 @@
         "description": "Dawson's Reef Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna feugiat volutpat."
     },
     {
+        "code": "CR001",
         "name": "Claire's Reef",
         "length": "4 nights / 5 days",
         "start": "2021-12-01T08:00:00Z",
