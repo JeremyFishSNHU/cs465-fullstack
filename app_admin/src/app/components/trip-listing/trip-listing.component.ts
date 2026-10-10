@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Trip } from '../../models/trip';
 import { TripCardComponent } from '../trip-card/trip-card.component';
 import { TripDataService } from '../../services/trip-data.service';
+import { Router } from '@angular/router';
 
 
 
@@ -15,7 +16,18 @@ import { TripDataService } from '../../services/trip-data.service';
 export class TripListingComponent implements OnInit {
     trips: Trip[] = [];
 
-    constructor(private tripDataService: TripDataService) { }
+    constructor(
+  private tripDataService: TripDataService,
+  private router: Router
+) { }
+
+public addTrip(): void {
+  this.router.navigate(['add-trip']);
+}
+
+public editTrip(tripCode: string): void {
+  this.router.navigate(['edit-trip', tripCode]);
+}
     
 
     ngOnInit(): void {
